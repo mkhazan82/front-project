@@ -37,25 +37,25 @@
     </head>
 <body>
     <h1 style="margin-right: 24px">تماس با ما</h1>
-    <form>
+    <form action="contact.php" method="post">
         <label for="name">نام:</label>
         <br>
-        <input type="text" id="name">
+        <input type="text" id="name" name="name">
         <br>
         
         <label for="title">عنوان:</label>
         <br>
-        <input type="text" id="title">
+        <input type="text" id="title" name="title">
         <br>
         
         <label for="email">ایمیل:</label>
         <br>
-        <input type="email" id="email">
+        <input type="email" id="email" name="email">
         <br>
         
         <label for="textbody">متن پیام:</label>
         <br>
-        <textarea id="textbody"></textarea>
+        <textarea id="textbody" name="textbody"></textarea>
         <br>
         
         <input type="submit" value="ارسال" id="submit">
