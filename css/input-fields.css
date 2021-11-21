@@ -1,0 +1,73 @@
+form{
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.text{
+    text-align: left;
+    width:  500px;
+    height: 40px;
+    margin:4px 0 ;
+    border-radius: 20px;
+    border: solid rgba(0, 0, 0, 0.12) 1px;
+    padding:0px 16px 0px 12px; 
+  outline: none;
+}
+ text,#mail{
+    width: 300px;
+}
+.multi-text{
+  text-align: right;
+  height:200px;
+  vertical-align: top;
+  padding: 8px 16px 8px 12px;
+  width:  600px;
+ 
+}
+
+
+.text:active,.text:focus,.text:visited{
+    border: solid 1px #00B0FF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.253);
+}
+ 
+
+.text-fulname{
+   text-align: right;
+  padding-right: 16px;
+   margin: 8px 0px;
+   max-width: 234px ;
+ }
+ .short-text{
+  text-align: center;
+ padding-right: 16px;
+  margin: 8px 8px;
+  max-width: 48px ;
+  height: 30px;
+}
+.short-text-label{
+  margin-right:30px ;
+}
+.last-name{
+    margin-right:240px ;
+}
+ form button{
+   margin: 8px 50px;
+}
+
+
+.radio-button{
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  color: var(--primary);
+  vertical-align: top;
+  margin-right: 4px;
+ padding: 8px;
+
+
+}
+#add-product{
+  margin-right: 64px;
+}
+.file{
+  margin: 12px 8px;
