@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="fa">
-    <head>
-        <title>افزودن محصول</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-    </head>
-    <body>
+<?php
+
+include 'adminPanel-view.php';
+?>
   
         <form action="addProduct.php"method="post"enctype="multipart/form-data">
             
@@ -23,13 +19,13 @@
          <input type="text"name="p_image"id="p_image"class="text text-fulname">
       
          <br>
-             
+
       <label for="body-text">توضیحات :</label>
         
       <textarea name="body_text"id="body_text"class="text multi-text"></textarea>
 <br>
 <button id="add-product" type="submit" class=" btn btn-filled primary">افزودن محصول</button> 
         </form>
-        
+        </section>
     </body>
 </html>
