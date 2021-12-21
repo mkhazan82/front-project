@@ -1,23 +1,13 @@
-<!DOCTYPE html>
-<html lang="fa">
-    <head>
-  
-     <title>  ویرایش پروفایل توسط مدیر</title>
-         
-     <meta charset="utf-8">
-
-     <link rel="stylesheet"type="text/css"href="css/profile-style.css">
-
-</head>
-
-<body>
+<?php
+include 'adminPanel-view.php';
+?>
  
   <form  action="" method="post" >
   <h1>پروفایل کاربر  </h1>
 
 <label for="userId">شماره کاربر :</label> 
  <br>
- <input type="text"id="userId" name="userId"class="text text-fulname" value="<?php echo userId ?>">
+ <input type="text"id="userId" name="userId"class="text text-fulname" value="<?php echo $userId ?>">
  <br>
  <label for="fname">نام :</label> <label for="lname"class="line-label">نام خانوادگی :</label>
  <br>
@@ -31,7 +21,7 @@
 <br>
 <label for="email">ایمیل :</label>
 <br>
-<input type="email"id="email" name="email"class="text" value="<?php echo $email ?>">
+<input type="email"id="email" name="email"class="text"placeholder="example@gmail.com" value="<?php echo $email ?>">
 <br>
 <label for="password">رمز ورود  :</label>
 <br>
@@ -44,6 +34,6 @@
 
 
 </form>
-
+</section>
 </body>
 </html>
