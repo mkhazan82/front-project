@@ -1,12 +1,6 @@
-<!doctype html>
-<html lang="fa">
-    <head>
-        <title>  فروشگاه لوازم خانگی نوین</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/style.css" type="text/css ">
-        <link  rel="stylesheet"   href="https://unpkg.com/swiper@7/swiper-bundle.min.css" type="text/css"/>
-    </head>
-    <body>
+<?php
+     include 'header.php';
+     ?>
        
         <!-- Slider main container  -->
 <div class="swiper">
@@ -14,9 +8,9 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
   
-    <div class="swiper-slide "><img src="images/banner/banner1.png" alt="تصویر نیست"></div>
-    <div class="swiper-slide"><img src="images/banner/banner2.png" alt="تصویر نیست"></div>
-    <div class="swiper-slide"><img src="images/banner/banner3.png" alt="تصویر نیست"></div>
+    <div class="swiper-slide "><img src="images/banners/banner1.png" alt="تصویر موجود نیست"></div>
+    <div class="swiper-slide"><img src="images/banners/banner2.png" alt="تصویر موجود نیست"></div>
+    <div class="swiper-slide"><img src="images/banners/banner3.png" alt="تصویر موجود نیست"></div>
     ...
   </div>
   <!-- If we need pagination -->
