@@ -1,19 +1,8 @@
-<!DOCTYPE html>
-<html lang="fa">
-    <head>
-  
-     <title> عضویت در سایت</title>
-         
-     <meta charset="utf-8">
-
-     <link rel="stylesheet"type="text/css"href="css/style.css">
-
-</head>
-
-<body>
- 
-  <form  action="register.php" method="post" >
-    <h1>ثبت نام درسایت   </h1>
+<?php
+include 'header.php';
+?>
+  <form  action="register-controler.php" method="post" >
+    <h2 >ثبت نام درسایت   </h2>
 
  <label for="fname">نام :</label> <label for="lname"class="last-name">نام خانوادگی :</label>
  <br>
@@ -38,6 +27,6 @@
 
 
 </form>
-
+</section>
 </body>
 </html>
