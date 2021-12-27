@@ -1,9 +1,10 @@
 <?php
-
 include 'adminPanel-view.php';
+
+
 ?>
   
-        <form action="addProduct.php"method="post"enctype="multipart/form-data">
+        <form action=""method="post"enctype="multipart/form-data">
             
         
             
@@ -17,9 +18,8 @@ include 'adminPanel-view.php';
          <input type="number"name="p_count"id="p_count"class="text short-text">
          <label for="p_image">تصویر محصول:</label>  
          <input type="text"name="p_image"id="p_image"class="text text-fulname">
-      
-         <br>
-
+        <br>
+     
       <label for="body-text">توضیحات :</label>
         
       <textarea name="body_text"id="body_text"class="text multi-text"></textarea>
