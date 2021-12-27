@@ -34,5 +34,7 @@ $product=$result ->fetchArray();
 
 include 'editProduct.php';
 }
+
+
 $db->close();
 ?>
