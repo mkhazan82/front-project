@@ -1,5 +1,5 @@
 <?php
-
+if(isset($_POST['submit'])){
 include 'settings.php';
 include 'db.php';
 $db = new db($dbHost, $dbUser, $dbPass, $dbName);
@@ -11,6 +11,8 @@ $result=$db->query($sql,$_POST['p_name'],$_POST['price'],$_POST['p_count'],$_POS
 
     echo"محصول با موفقیت افزوده شد";
     $db->close();
-
-
+}
+else{
+ include 'addProduct-view.php';
+}
 ?>
