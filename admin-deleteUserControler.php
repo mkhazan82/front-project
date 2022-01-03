@@ -1,9 +1,24 @@
 <?php
+session_start();
+include 'settings.php';
+include 'db.php';
+include 'security.php';
+
+$uid=$_GET['id'];
 
 
-$uid=$user['id'];
-$delete= "DELETE FROM users WHERE id=? ";
+$db = new db($dbHost, $dbUser, $dbPass, $dbName);
 
-$result = $db->query($delete,$uid);
+
+
+    $sql="DELETE  FROM users WHERE id=?";
+    $result=$db->query($sql,$uid);
+    echo 'کاربر حذف شد';
+
+
+
+
+    $db->close();
+
 
 ?>
